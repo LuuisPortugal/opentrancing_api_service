@@ -12,7 +12,7 @@ using System.Security.Claims;
 
 namespace api_service.Controllers
 {
-    [Route("api/v1/[controller]")]
+    [Route("api/v1/categories")]
     [ApiController]
     [Authorize(Roles = "Admin")]
     public class CategoriesController : ControllerBase

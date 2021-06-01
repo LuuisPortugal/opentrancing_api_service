@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace api_service.Controllers
 {
-    [Route("api/v1/[controller]")]
+    [Route("api/v1/products")]
     [ApiController]
     [Authorize(Roles = "Admin,Employee")]
     public class ProductsController : ControllerBase
